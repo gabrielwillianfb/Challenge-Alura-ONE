@@ -1,0 +1,158 @@
+@media screen and (min-width: 1210px) {
+	body {
+		margin: 20px;
+	}
+
+	main {
+		gap: 40px;
+		margin: 20px;
+	}
+
+	.section-esquerda {
+		margin: 40px 0 32px 20px;
+	}
+
+	.btn-criptografar,
+	.btn-descriptografar {
+		padding: 1rem;
+	}
+
+	#resultado {
+		margin: 16px 0 16px 0;
+	}
+
+	#btn-copiar {
+		padding: 1rem;
+		margin: auto 1rem 1.5rem 1rem;
+	}
+}
+
+@media screen and (max-width: 1210px) and (min-width: 1000px) {
+	body {
+		margin: 20px;
+	}
+
+	main {
+		gap: 20px;
+		margin: 20px;
+	}
+
+	.section-esquerda {
+		margin: 20px 0 20px 20px;
+	}
+
+	#resultado {
+		margin: 10px 0 10px 0;
+	}
+
+	#btn-copiar {
+		margin: auto 1rem 1.5rem 1rem;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 375px){
+	body {
+		display: block;
+		margin: 10px;
+	}
+
+	main {
+		flex-direction: column;
+		gap: 10px;
+		margin: 10px;
+	}
+
+	.section-esquerda,
+	.section-direita {
+		margin: 10px;
+	}
+
+	#textarea {
+		height: 28rem;
+	}
+
+	.section-direita {
+		width: auto;
+		min-height: 133px;
+	}
+
+	#boneco-img {
+		display: none;
+	}
+
+	#msg-nao-encontrada {
+		padding: 0;
+
+	}
+
+	.btn-criptografar,
+	.btn-descriptografar {
+		padding: 1.5rem;
+	}
+
+	#btn-copiar {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	#resultado {
+		margin: 10px 0 10px 0;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 374px){
+	body {
+		display: block;
+		margin: 10px;
+	}
+
+	main {
+		flex-direction: column;
+		gap: 10px;
+		margin: 10px;
+	}
+
+	.section-esquerda,
+	.section-direita {
+		margin: 10px;
+	}
+
+	#textarea {
+		height: 28rem;
+	}
+
+	.section-direita {
+		width: auto;
+		min-height: 133px;
+	}
+
+	#boneco-img {
+		display: none;
+	}
+
+	#msg-nao-encontrada {
+		padding: 0;
+
+	}
+
+	.botoes {
+		flex-direction: column;
+	}
+
+	.btn-criptografar,
+	.btn-descriptografar {
+		width: 100%;
+		padding: 1.5rem;
+	}
+
+	#btn-copiar {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	#resultado {
+		margin: 10px 0 10px 0;
+		height: auto;
+	}
+}
